@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-#root {
+/* #root {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
     font-family: sans-serif;
     color: #333;
     background-color: #f3e4d7;
-}
+} */
 
 /* height of the container */
 .leaflet-container {
@@ -35,3 +35,40 @@
     font-size: 1.2rem;
     box-shadow: 0 0 0px 5px #fff;
 }
+
+path.leaflet-line {
+  stroke: #50622b;
+  stroke-width: 2;
+}
+
+/* div.leaflet-edge {
+  background-color: #95bc59;
+  box-shadow: 0 0 0 2px white, 0 0 10px rgba(0, 0, 0, 0.35);
+  border-radius: 50%;
+  cursor: move;
+  outline: none;
+  transition: background-color 0.25s;
+} */
+
+/* div.leaflet-edge.disabled {
+  pointer-events: none;
+  background-color: #bbb;
+} */
+
+path.leaflet-polygon {
+  fill: #b4cd8a;
+  stroke: #50622b;
+  stroke-width: 2;
+  fill-opacity: 0.75;
+}
+
+.map.mode-create {
+  cursor: crosshair;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px;
+}
+
